@@ -33,8 +33,9 @@ This repository represents a web app with a Binary classification ML model which
 
 Rest of the packages are listed in packages txt file.
 ## 👁Download the ML Model 
-- Download the "MarsSegmentationModel_20230308-131105.h5" file from following Drive [Link](https://drive.google.com/file/d/1j1dx9Rt3uuKMQNy4CobIwzwUZVnKevQk/view?usp=sharing).
-
+- For app.py only, Download the "MarsSegmentationModel_20230308-131105.h5" file from following Drive [Link](https://drive.google.com/file/d/1j1dx9Rt3uuKMQNy4CobIwzwUZVnKevQk/view?usp=sharing).
+- new_app.py file is tflite file which is quantized version of h5 file. Use new_app.py file which is lighter and quantized_model.tflite is the model file.
+- app.py and new_app.py possess same architecture but different version of same model.
 
 
 ## 🖥 Deployment
@@ -43,7 +44,7 @@ Rest of the packages are listed in packages txt file.
 - To deploy this project:
 
 ```bash
-  streamlit run app.py
+  streamlit run new_app.py
 ```
 
 - It will launch the webapp, then follow below steps :
