@@ -81,7 +81,7 @@ if uploaded_file is not None:
     input_imgs = Image.open(uploaded_file).convert('RGB')
     test_imgs = preprocess_input(input_imgs)
 
-    quantized_model = tf.lite.Interpreter(model_content=open('Model Quantization\quantized_model.tflite', 'rb').read())
+    quantized_model = tf.lite.Interpreter(model_content=open('quantized_model.tflite', 'rb').read())
 
     input_details = quantized_model.get_input_details()
    
