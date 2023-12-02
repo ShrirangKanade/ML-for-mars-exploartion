@@ -53,7 +53,7 @@ col1, col2,col3 = st.columns(3,gap="medium")
 
 with col1:
     st.header("Input")
-    st.image("predicted_mask.png")
+    st.image("Inputs/IMG1.jpg")
 
 with col2:
     st.header("Prediction")
