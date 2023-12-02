@@ -33,8 +33,8 @@ This repository represents a web app with a Binary classification ML model which
 
 Rest of the packages are listed in packages txt file.
 ## 👁Download the ML Model 
-- For app.py only, Download the "MarsSegmentationModel_20230308-131105.h5" file from following Drive [Link](https://drive.google.com/file/d/1j1dx9Rt3uuKMQNy4CobIwzwUZVnKevQk/view?usp=sharing).
-- new_app.py file is tflite file which is quantized version of h5 file. Use new_app.py file which is lighter and quantized_model.tflite is the model file.
+- Download the "MarsSegmentationModel_20230308-131105.h5" file from following Drive [Link](https://drive.google.com/file/d/1j1dx9Rt3uuKMQNy4CobIwzwUZVnKevQk/view?usp=sharing) which is the real model file and used in app.py.
+- new_app.py file uses quantized_model.tflite file which is quantized(small size) version of above h5 file link. Use new_app.py file which is lighter.
 - app.py and new_app.py possess same architecture but different version of same model.
 
 
@@ -72,6 +72,7 @@ Rest of the packages are listed in packages txt file.
 
 
 ## 📷 Screenshot
+![Screenshot 2023-11-02 153230](https://github.com/ShrirangKanade/ML-for-mars-exploartion/assets/110344056/b1c70d8b-e97c-4d37-82ca-5c8a5361c07d)
 
 
 ## 😇 Feedback
