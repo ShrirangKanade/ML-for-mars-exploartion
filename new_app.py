@@ -93,7 +93,7 @@ with col3:
 selected_image = st.selectbox("Select an image", ["IMG1.jpg", "IMG2.jpg", "IMG3.jpg"])
 
 if selected_image in ["IMG1.jpg", "IMG2.jpg", "IMG3.jpg"]:
-    input_imgs = Image.open(uploaded_file).convert('RGB')
+    input_imgs = Image.open(selected_image).convert('RGB')
     test_imgs = preprocess_input(input_imgs)
 
     quantized_model = tf.lite.Interpreter(model_content=open('quantized_model.tflite', 'rb').read())
