@@ -82,13 +82,13 @@ st.write("""
 col1, col2,col3 = st.columns(3,gap="medium")
 
 with col1:
-    st.image("Inputs\IMG1.jpg",caption='Image 1')
+    st.image("Inputs/IMG1.jpg",caption='Image 1')
 
 with col2:
-    st.image("Inputs\IMG2.jpg",caption='Image 2 ')
+    st.image("Inputs/IMG2.jpg",caption='Image 2 ')
 
 with col3:
-    st.image('Inputs\IMG3.jpg',caption='Image 3')
+    st.image('Inputs/IMG3.jpg',caption='Image 3')
 
 selected_image = st.selectbox("Select an image", ["IMG1.jpg", "IMG2.jpg", "IMG3.jpg"])
 
