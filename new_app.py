@@ -76,8 +76,23 @@ st.write("""
 ### 📷 Choose Images from Below: 
 """)
 
-uploaded_file = st.file_uploader("Select Images from [Inputs](https://github.com/ShrirangKanade/ML-for-mars-exploration/tree/master/Inputs):")
-if uploaded_file is not None:
+# uploaded_file = st.file_uploader("Select Images from [Inputs](https://github.com/ShrirangKanade/ML-for-mars-exploration/tree/master/Inputs):")
+# if uploaded_file is not None:
+
+col1, col2,col3 = st.columns(3,gap="medium")
+
+with col1:
+    st.image("Inputs\IMG1.jpg",caption='Image 1')
+
+with col2:
+    st.image("Inputs\IMG2.jpg",caption='Image 2 ')
+
+with col3:
+    st.image('Inputs\IMG3.jpg',caption='Image 3')
+
+selected_image = st.selectbox("Select an image", ["IMG1.jpg", "IMG2.jpg", "IMG3.jpg"])
+
+if selected_image in ["IMG1.jpg", "IMG2.jpg", "IMG3.jpg"]:
     input_imgs = Image.open(uploaded_file).convert('RGB')
     test_imgs = preprocess_input(input_imgs)
 
