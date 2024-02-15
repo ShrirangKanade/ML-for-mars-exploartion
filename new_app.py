@@ -90,7 +90,7 @@ with col2:
 with col3:
     st.image('Inputs/IMG3.jpg',caption='Image 3')
 
-selected_image = st.selectbox("Select an image", ["IMG1.jpg", "IMG2.jpg", "IMG3.jpg"])
+selected_image = st.selectbox("### Select an image", ["IMG1.jpg", "IMG2.jpg", "IMG3.jpg"])
 
 if selected_image in ["IMG1.jpg", "IMG2.jpg", "IMG3.jpg"]:
     input_imgs = Image.open(selected_image).convert('RGB')
