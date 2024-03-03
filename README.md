@@ -71,12 +71,14 @@ Rest of the packages are listed in packages txt file.
 
 
 
-## 📷 Screenshot
+## 📷 System Design
 ![System Design](https://github.com/ShrirangKanade/ML-for-mars-exploration/assets/110344056/473e6d68-daa8-4328-9be0-77431dd779ac)
 
+## 📷 Screenshot
 ![Screenshot 2023-11-02 153230](https://github.com/ShrirangKanade/ML-for-mars-exploartion/assets/110344056/b1c70d8b-e97c-4d37-82ca-5c8a5361c07d)
 
-
+## 🚀 Deployment
+* [Mars Exploration](https://shrirang-ml-mars-exploration-jku5k7xjyinwthvxxzdqjj.streamlit.app/)
 ## 😇 Feedback
 
 If you have any feedback, please reach out to us at coder.shrirang.kanade@gmail.com
